@@ -1,6 +1,9 @@
-def letterCombinations(digits):
-    # 测试一下
-    return
+def letterCombinations(digits,k):
+    import heapq
+    heapq.heapify(digits)
+    res=heapq.nsmallest(k,digits)
+    return res
 
-
-print(letterCombinations([["a","b","c"], ["x", "y", "z"]]))
+digits=[0,1,2,1]
+k=2
+print(letterCombinations(digits,k))
