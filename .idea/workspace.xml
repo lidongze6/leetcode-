@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e2df66c-27ae-4deb-86e9-d4452c6a62fb" name="Default Changelist" comment="首次提交">
-      <change afterPath="$PROJECT_DIR$/365. 水壶问题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/300. 最长上升子序列.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +38,8 @@
     <session id="1583498275">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
@@ -50,7 +50,7 @@
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="2" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,7 +81,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -396,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584782434641</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="首次提交">
+      <created>1584782767074</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584782767074</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -411,7 +418,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21983914" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22252011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
