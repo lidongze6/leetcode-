@@ -1,11 +1,12 @@
 class Solution:
     def findTargetSumWays(self, nums, S):
+        # dfs 超时，尝试添加记忆化或DP方法
         if not nums or sum(nums) < S:
             return 0
         self.res = 0
         ret = []
         self.dfs(0, 0, nums, S, ret, [])
-        return self.res, ret
+        return self.res
 
     def dfs(self, tmpsum, index, nums, target,ret,tmp):
         if index == len(nums) and tmpsum == target:
