@@ -16,13 +16,13 @@ class Solution:
                 res = 0
                 for dx, dy in [[1, 0], [-1, 0], [0, 1], [0, -1]]:
                     res += dfs(x + dx, y + dy, step - 1)
-                    dic[(x, y, step)] = res
+                dic[(x, y, step)] = res
                 return res
 
         return dfs(i, j, N) % MOD
 
-m = 2
-n = 2
+m = 3
+n = 3
 N = 2
 i = 0
 j = 0
