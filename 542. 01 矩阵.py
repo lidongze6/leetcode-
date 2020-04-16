@@ -1,5 +1,6 @@
 class Solution:
     def updateMatrix(self, matrix):
+        # BFS，对每个1进行bfs
         if not matrix: return []
         r, c = len(matrix), len(matrix[0])
         self.res = [[0 for i in range(c)] for j in range(r)]
