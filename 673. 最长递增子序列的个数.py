@@ -1,5 +1,5 @@
 class Solution:
-    def findNumberOfLIS(self, nums: List[int]) -> int:
+    def findNumberOfLIS(self, nums) -> int:
         l = len(nums)
         if l <= 1: return l
         f = [1] * l
@@ -17,3 +17,7 @@ class Solution:
             if f[i] == tmp:
                 res += c[i]
         return res
+
+
+nums=[1,3,5,4,7]
+print(Solution().findNumberOfLIS(nums))
