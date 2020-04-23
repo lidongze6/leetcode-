@@ -17,3 +17,9 @@ class Solution:
                     dp[i][j] = max(dp[i][j], dp[i - 1][j - weight[i - 1]] + value[i - 1])
 
         return dp[-1][-1]
+
+
+weight = [2, 3, 5, 7]
+value = [1, 5, 2, 4]
+m = 10
+print(Solution().backPack(m,weight,value))
