@@ -14,9 +14,9 @@ class Solution:
         def backtrack(conbination, nextdigit):
             if len(nextdigit) == 0:
                 res.append(conbination)
-            else:
-                for letter in phone[nextdigit[0]]:
-                    backtrack(conbination + letter, nextdigit[1:])
+                return
+            for letter in phone[nextdigit[0]]:
+                backtrack(conbination + letter, nextdigit[1:])
 
         res = []
         backtrack('', digits)
