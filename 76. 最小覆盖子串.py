@@ -26,4 +26,5 @@ class Solution:
 
 s = "ADABECODEBANC"
 t = "AAB"
-print(Solution().minWindow(s, t))
+#print(Solution().minWindow(s, t))
+print(ord("a"))
