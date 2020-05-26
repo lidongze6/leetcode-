@@ -12,7 +12,3 @@ class Solution:
             else:
                 r = mid - 1
         return l if nums.count(l)>1 else r
-
-
-nums = [3,1,3,4,2]
-print(Solution().findDuplicate(nums))
