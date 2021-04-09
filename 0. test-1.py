@@ -1,18 +1,13 @@
 class Solution:
-    def findDuplicate(self, nums) -> int:
-        l, r = 1, len(nums) - 1
-        while l+1 < r:
-            count = 0
+    def binary_search(self, nums, target):
+        l, r = 0, len(nums) - 1
+        while l < r:
             mid = l + (r - l) // 2
-            for i in nums:
-                if i < mid:
-                    count += 1
-            if count < mid:
-                l = mid
+            if nums[mid] >= target:
+                r = mid
             else:
-                r = mid - 1
-        return l if nums.count(l)>1 else r
+                l = mid + 1
+        return l
 
-
-nums = [3,1,3,4,2]
-print(Solution().findDuplicate(nums))
+nums = [0,1,3,6]
+print(Solution().binary_search(nums,5))
