@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e2df66c-27ae-4deb-86e9-d4452c6a62fb" name="Default Changelist" comment="首次提交">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1574. 删除最短的子数组使剩余数组有序.py" beforeDir="false" afterPath="$PROJECT_DIR$/1574. 删除最短的子数组使剩余数组有序.py" afterDir="false" />
-    </list>
+    <list default="true" id="4e2df66c-27ae-4deb-86e9-d4452c6a62fb" name="Default Changelist" comment="首次提交" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,13 +163,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="1" />
-          <entry key="py" value="497" />
+          <entry key="py" value="498" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
-          <entry key="Python" value="497" />
+          <entry key="Python" value="498" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -201,13 +198,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1574. 删除最短的子数组使剩余数组有序.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="868">
+            <state relative-caret-position="-207">
               <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1618. 找出适应屏幕的最大字号.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -227,7 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/231. 2的幂-2.py" />
         <option value="$PROJECT_DIR$/268. 缺失数字.py" />
         <option value="$PROJECT_DIR$/342. 4的幂.py" />
         <option value="$PROJECT_DIR$/304. 二维区域和检索 - 矩阵不可变.py" />
@@ -278,6 +279,7 @@
         <option value="$PROJECT_DIR$/好看视频爬虫.py" />
         <option value="$PROJECT_DIR$/0. test-1.py" />
         <option value="$PROJECT_DIR$/1574. 删除最短的子数组使剩余数组有序.py" />
+        <option value="$PROJECT_DIR$/1618. 找出适应屏幕的最大字号.py" />
       </list>
     </option>
   </component>
@@ -701,7 +703,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617967771728</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="首次提交">
+      <created>1617968164477</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1617968164477</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -940,13 +949,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/17. 电话号码的字母组合.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/17. 电话号码的字母组合-2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -1272,10 +1274,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1574. 删除最短的子数组使剩余数组有序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
+        <state relative-caret-position="-207">
           <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1618. 找出适应屏幕的最大字号.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
